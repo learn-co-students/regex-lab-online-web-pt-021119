@@ -8,7 +8,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-   text.scan(/un\w+ing/)
+  text.scan(/un\w+ing/)
   # return_array = []
   # text.split(' ').each do |i|
   #   if i.match(/^(un)/) && i.match(/(ing)$/)
